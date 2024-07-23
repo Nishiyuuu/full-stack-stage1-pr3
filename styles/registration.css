@@ -1,0 +1,54 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+main h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid red;
+    border-radius: 30px;
+}
+main form label{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+main form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 3px solid red;
+}
+main form button{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 3px solid red;
+    color: black;
+}
+main form button:hover{
+    background-color: red;
+    color: black;
+    transition: 0.5s;
+}
